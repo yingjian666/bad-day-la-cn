@@ -1,0 +1,31 @@
+# 补丁构建产物（体积大，走 Releases）
+*.zip
+_stage_full/
+_stage_lite/
+_release/
+_movie_archive/
+_burned/
+_submitted/
+_orig_backup/
+
+# 视频与音频中间文件
+*.avi
+*.wmv
+*.wav
+*.m4v
+*.ass
+
+# 临时与调试
+_audio/
+__pycache__/
+*.pyc
+*.log
+_dbg*.bat
+_test.bat
+tmp/
+temp/
+
+# 系统
+Thumbs.db
+desktop.ini
+.DS_Store
