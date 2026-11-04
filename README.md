@@ -1,7 +1,8 @@
 # Bad Day L.A. 简体中文汉化
 
-[![版本](https://img.shields.io/badge/version-1.1-blue.svg)](#下载)
-[![游戏](https://img.shields.io/badge/game-Bad%20Day%20L.A.-orange.svg)](#)
+[![版本](https://img.shields.io/badge/version-1.1-blue.svg)](../../releases)
+[![下载量](https://img.shields.io/github/downloads/yingjian666/badday-la-cn/total.svg)](../../releases)
+[![游戏](https://img.shields.io/badge/game-Bad%20Day%20L.A.-orange.svg)](https://en.wikipedia.org/wiki/Bad_Day_LA)
 [![平台](https://img.shields.io/badge/platform-Windows%20XP%2B-lightgrey.svg)](#兼容性)
 [![许可](https://img.shields.io/badge/license-see%20LICENSE-green.svg)](LICENSE)
 
@@ -261,11 +262,12 @@ SIB 字节 `0x00` 表示 scale=1，所以地址是 `0x7DE100 + 2 × index`，**�
 
 ## 下载
 
-补丁包见 [Releases](../../releases)。
+[**↓ 下载 v1.1**](../../releases/latest)
 
 | 文件 | 大小 | 说明 |
 |---|---|---|
 | `BadDayLA_CN_v1.1.zip` | 4.13 MB | 含 3 套实际使用的字库 |
+| `SHA256SUMS.txt` | 124 B | 校验和 |
 
 解压后 30.4 MB，覆盖到游戏根目录即可。
 
