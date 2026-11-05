@@ -2,7 +2,7 @@
 
 ![版本](https://img.shields.io/badge/version-1.1-blue.svg)
 
-![下载量](https://img.shields.io/github/downloads/yingjian666/badday-la-cn/total.svg)
+![下载量](https://img.shields.io/github/downloads/yingjian666/bad-day-la-cn/total.svg)
 
 ![游戏](https://img.shields.io/badge/game-Bad%20Day%20L.A.-orange.svg)
 
