@@ -40,6 +40,7 @@
 - [兼容性](#兼容性)
 - [已知问题](#已知问题)
 - [仓库结构](#仓库结构)
+- [English](#english)　← 英文说明
 - [授权](#授权)
 - [免责声明](#免责声明)
 
@@ -346,6 +347,56 @@ bad-day-la-cn/
 | 加载界面底部文字不显示 | 轻微   | 白色加载画面底部那一行（原本显示「读取中」）中文不显示，画面呈纯白底，约 2 秒。该文字走的是与游戏内不同的绘制路径，累计 7 种方案均未成功，根因已定位到 `0x556065` 调用点的字符串参数不稳定 |
 | 超长句子被截断     | 轻微   | 引擎有右边界参数，超过一行宽度即截断（18px 字库约 26 个全角字）。**英文原版同样截断**，属引擎固有行为，不是汉化缺陷                                       |
 | 招牌、品牌名保持原文  | 设计如此 | 见上文「有意未汉化」                                                                                             |
+
+## English
+
+**Bad Day L.A. — Simplified Chinese Localization Patch**
+
+A complete Chinese translation patch for *Bad Day L.A.* (also written *Bad Day LA*,
+*BadDayLA*; full title *American McGee's Bad Day L.A.*), the 2006 third-person
+action game developed by Enlight Software and published by Aspyr Media.
+
+This patch translates **all UI text, dialogue subtitles, item names, level names
+and credits** into Simplified Chinese. It works on the retail English PC version
+1.1.0.
+
+### Download
+
+See [Releases](../../releases/latest):
+
+| File | Size | Contents |
+|---|---|---|
+| `BadDayLA_CN_v1.1.zip` | 4.1 MB | Text localization only (recommended) |
+| `BadDayLA_CN_v1.1_with_movies.zip` | 484 MB | Also includes 8 cutscene videos with burned-in bilingual subtitles |
+
+Extract over your game folder (where `BadDayLA.exe` lives). Back up first.
+
+### Technical notes
+
+The original engine is a 2006 single-byte design with no CJK support — even the
+codepage declaration file `CODEPAGE.RES` ships empty. Making it display Chinese
+required patching the encoding subsystem, reverse-engineering the bitmap font
+format, and regenerating font atlases with baked-in outlines.
+
+[TECHNICAL.md](TECHNICAL.md) documents the full process: jump table patching,
+the three string-handling functions that were replaced (with addresses and byte
+counts), the exact cause of the "100 renders as 10" bug, and the four text
+container formats with their differing length constraints.
+
+Written in Chinese, but the code blocks, addresses and structure should be
+readable regardless.
+
+### Compatibility
+
+Windows XP SP2 and later. The patch writes nothing to the registry, no services,
+no network access. Chinese (GBK) system locale required.
+
+### License
+
+Translation text and tooling: CC BY-NC-SA 4.0. Font: SIL OFL 1.1.
+Game assets remain the property of their respective owners. See [LICENSE](LICENSE).
+
+---
 
 ## 授权
 
