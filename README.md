@@ -6,9 +6,13 @@
 [![平台](https://img.shields.io/badge/platform-Windows%20XP%2B-lightgrey.svg)](#兼容性)
 [![许可](https://img.shields.io/badge/license-see%20LICENSE-green.svg)](LICENSE)
 
-> **中文译名**：坏日洛杉矶 / 洛杉矶大灾难 / 洛城受难日 / 洛城大灾难  
-> **英文原名**：Bad Day L.A.（American McGee's Bad Day L.A.）  
+> **中文名称**：坏日洛杉矶 / 洛杉矶大灾难 / 洛城受难日 / 洛城大灾难  
+> **英文名称**：Bad Day L.A. / Bad Day LA / BadDayLA / BadDay L.A.  
+> **完整标题**：American McGee's Bad Day L.A.  
 > **开发**：Enlight Software　**发行**：Aspyr Media（2006）
+
+> 这游戏的中英文叫法都不统一，上面列的几种写法指的是同一个游戏。
+> 你不确定找对了没有，可以对照下面的截图和发行信息。
 
 2006 年第三人称动作游戏。主角安东尼（Anthony）是个愤世嫉俗的越战老兵，在洛杉矶当消防员。某个夜里全城同时遭遇地震、火灾、生化袭击、帮派火并和陨石，政府救援彻底瘫痪，他一边骂街一边穿过十个关卡的洛杉矶街景去救人。黑色幽默和辛辣讽刺贯穿全程——对美国消费文化、电视媒体、官僚体系的调侃一刻不停。
 
