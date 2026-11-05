@@ -1,29 +1,24 @@
-# Bad Day L.A. 简体中文汉化 (Bad Day LA / BadDayLA)
+# Bad Day L.A. 汉化补丁 (Bad Day LA / BadDayLA)
 
-![版本](https://img.shields.io/badge/version-1.1-blue.svg)
-
-![下载量](https://img.shields.io/github/downloads/yingjian666/bad-day-la-cn/total.svg)
-
-![游戏](https://img.shields.io/badge/game-Bad%20Day%20L.A.-orange.svg)
-
-![平台](https://img.shields.io/badge/platform-Windows%20XP%2B-lightgrey.svg)
-
-![许可](https://img.shields.io/badge/license-see%20LICENSE-green.svg)
+[![版本](https://img.shields.io/badge/version-1.1-blue.svg)](../../releases)
+[![下载量](https://img.shields.io/github/downloads/yingjian666/bad-day-la-cn/total.svg)](../../releases)
+[![游戏](https://img.shields.io/badge/game-Bad%20Day%20L.A.-orange.svg)](https://en.wikipedia.org/wiki/Bad_Day_LA)
+[![平台](https://img.shields.io/badge/platform-Windows%20XP%2B-lightgrey.svg)](#兼容性)
+[![许可](https://img.shields.io/badge/license-see%20LICENSE-green.svg)](LICENSE)
 
 > **中文名称**：坏日洛杉矶 / 洛杉矶大灾难 / 洛城受难日 / 洛城大灾难  
 > **英文名称**：Bad Day L.A. / Bad Day LA / BadDayLA / BadDay L.A.  
 > **完整标题**：American McGee's Bad Day L.A.  
 > **开发**：Enlight Software　**发行**：Aspyr Media（2006）
 
-
 > 这游戏的中英文叫法都不统一，上面列的几种写法指的是同一个游戏。
-> 本页提供的是一份完整的**汉化补丁 / 中文补丁 / 汉化包**，覆盖界面文本、
-> 对话字幕与过场动画，适用于正版 PC 英文版。
+> 本页提供的是一份完整的汉化补丁，也可以叫中文补丁或汉化包，
+> 覆盖界面文本、对话字幕与过场动画，适用于正版 PC 英文版。
 > 你不确定找对了没有，可以对照下面的截图和发行信息。
 
 2006 年第三人称动作游戏。主角安东尼（Anthony）是个愤世嫉俗的越战老兵，在洛杉矶当消防员。某个夜里全城同时遭遇地震、火灾、生化袭击、帮派火并和陨石，政府救援彻底瘫痪，他一边骂街一边穿过十个关卡的洛杉矶街景去救人。黑色幽默和辛辣讽刺贯穿全程——对美国消费文化、电视媒体、官僚体系的调侃一刻不停。
 
-原版只有英文，本补丁把它完整汉化。
+原版只有英文，这份 Bad Day L.A. 汉化补丁把它完整汉化。
 
 这是 2006 年的老游戏，国内流传的多是删减过的 RIP 版，界面与文本都与完整版有出入。  
 本补丁基于完整的 PC 英文版制作，覆盖全部界面、对话与过场动画，  
@@ -57,12 +52,12 @@
 
 游戏内过场动画的中文字幕效果（中文在上，英文在下）：
 
-|    |        |
-| -- | ------ |
-| L1 | L2     |
-| L3 | L4     |
-| L5 | L7     |
-| L8 | ending |
+| | |
+|---|---|
+| ![L1](docs/screenshots/L1_movie.png) | ![L2](docs/screenshots/L2_movie.png) |
+| ![L3](docs/screenshots/L3_movie.png) | ![L4](docs/screenshots/L4_movie.png) |
+| ![L5](docs/screenshots/L5_movie.png) | ![L7](docs/screenshots/L7_movie.png) |
+| ![L8](docs/screenshots/L8_movie.png) | ![ending](docs/screenshots/ending.png) |
 
 > 截图来自 `BadDayLA_CN_v1.1_with_movies.zip` 那个包的成品，该包包含过场动画的中文字幕版，见 [下载](#下载)。
 
