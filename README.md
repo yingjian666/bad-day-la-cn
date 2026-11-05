@@ -1,4 +1,4 @@
-# Bad Day L.A. 简体中文汉化
+# Bad Day L.A. 简体中文汉化 (Bad Day LA / BadDayLA)
 
 ![版本](https://img.shields.io/badge/version-1.1-blue.svg)
 
