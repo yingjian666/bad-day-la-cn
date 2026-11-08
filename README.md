@@ -1,6 +1,6 @@
 # Bad Day L.A. 汉化补丁 (Bad Day LA / BadDayLA)
 
-[![版本](https://img.shields.io/badge/version-1.2-blue.svg)](../../releases)
+[![版本](https://img.shields.io/badge/version-1.3-blue.svg)](../../releases)
 [![下载量](https://img.shields.io/github/downloads/yingjian666/bad-day-la-cn/total.svg)](../../releases)
 [![游戏](https://img.shields.io/badge/game-Bad%20Day%20L.A.-orange.svg)](https://en.wikipedia.org/wiki/Bad_Day_LA)
 [![平台](https://img.shields.io/badge/platform-Windows%20XP%2B-lightgrey.svg)](#兼容性)
@@ -59,7 +59,7 @@
 | ![L5](docs/screenshots/L5_movie.png) | ![L7](docs/screenshots/L7_movie.png) |
 | ![L8](docs/screenshots/L8_movie.png) | ![ending](docs/screenshots/ending.png) |
 
-> 截图来自 `BadDayLA_CN_v1.2_with_movies.zip` 那个包的成品，该包包含过场动画的中文字幕版，见 [下载](#下载)。
+> 截图来自 `BadDayLA_CN_v1.3_with_movies.zip` 那个包的成品，该包包含过场动画的中文字幕版，见 [下载](#下载)。
 
 ---
 
@@ -274,21 +274,23 @@ SIB 字节 `0x00` 表示 scale=1，所以地址是 `0x7DE100 + 2 × index`，**�
 
 ## 下载
 
-[**↓ 下载 v1.2**](../../releases/latest)
+[**↓ 下载 v1.3**](../../releases/latest)
 
 | 文件 | 大小 | 说明 |
 |---|---|---|
-| `BadDayLA_CN_v1.2.zip` | 4.1 MB | **推荐**。纯文本汉化，覆盖到游戏目录即可 |
-| `BadDayLA_CN_v1.2_with_movies.zip` | 484 MB | 额外含 8 个过场动画的中英双语字幕版 |
+| `BadDayLA_CN_v1.3.zip` | 4.1 MB | **推荐**。纯文本汉化，覆盖到游戏目录即可 |
+| `BadDayLA_CN_v1.3_with_movies.zip` | 484 MB | 额外含 8 个过场动画的中英双语字幕版 |
 | `SHA256SUMS.txt` | — | SHA256 校验和 |
 
-### v1.2 更新了什么
+### v1.3 更新了什么
 
-- **修复过场动画播放崩溃**：L3 等影片播到几秒后会弹出 `xvidcore.dll` 错误窗口。
-  原因是 AVI 里存在 0 字节的空帧，老版系统解码器解析时越界读。
-  现在 8 部影片的帧数、时长、分辨率与原片完全一致，空帧为零。
-- **新增顶部术语注释**：L5 里的 FUBAR 加了解释，显示在画面上方，不遮挡对话字幕。
-- **L5、L8 字幕重新校对。**
+- **状态标签原本是德文**：左上角头像下的三个标签，此前误用了德语版贴图，
+  一直显示 `Stinkend` / `BETRUNKEN` / `VERSEUCHT!`。现已重绘为「发臭」「醉酒」「已感染」。
+- **招募提示的对象**：按 E / F 给物品的对象是街上的路人，原译「同伴」会让玩家去找队友，
+  但游戏里并没有向队友给东西的机制。
+- **左下角增益说明不显示**：文本里混入的全角空格、全角加号让整条渲染失败，已清理。
+- **术语统一**：「撬胎棍」改为「撬胎棒」，与物品栏里的名称一致。
+- **主菜单「退出」简化**：不再显示「退出到 Windows...」。
 
 详见 [CHANGELOG](CHANGELOG.md)。
 
@@ -337,7 +339,7 @@ bad-day-la-cn/
 │   ├── 影片字幕技术档案.txt            影片字幕的完整技术说明（存档）
 │   └── screenshots/                   效果截图
 └── release-notes/
-    └── v1.2.md                        本版发布说明
+    └── v1.3.md                        本版发布说明
 ```
 
 **补丁本体不放在仓库里**（含字库 DDS 共 55 MB，超过 Git 单文件建议值），
@@ -380,8 +382,8 @@ See [Releases](../../releases/latest):
 
 | File | Size | Contents |
 |---|---|---|
-| `BadDayLA_CN_v1.2.zip` | 4.1 MB | Text localization only (recommended) |
-| `BadDayLA_CN_v1.2_with_movies.zip` | 484 MB | Also includes 8 cutscene videos with burned-in bilingual subtitles |
+| `BadDayLA_CN_v1.3.zip` | 4.1 MB | Text localization only (recommended) |
+| `BadDayLA_CN_v1.3_with_movies.zip` | 484 MB | Also includes 8 cutscene videos with burned-in bilingual subtitles |
 
 Extract over your game folder (where `BadDayLA.exe` lives). Back up first.
 
